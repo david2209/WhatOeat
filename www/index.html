@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <title>吃什么？</title>
+</head>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<body>
+<div class="div-item">
+    <span class="fr font-16 cor-6 -v-show-ads">[默认]</span>
+</div>
+<div class="div-item J-show tc font-18 cor-3" style="margin-top: 10%;">
+    吃什么？
+</div>
+<input type="button" class="btn J-ctrl" value="跑起来"/>
+
+<!-- 添加入口 开始 -->
+<div class="add-init tc font-25 J-init-add">+</div>
+<!-- 添加入口 结束 -->
+
+<!-- 展示入口 开始 -->
+<div class="show-address tc font-16 J-show-address">地儿</div>
+<!-- 展示入口结束 -->
+
+<!-- 遮罩层 -->
+<div class="pop"></div>
+
+<!-- 添加菜品 开始 -->
+<div class="pop-add-eat">
+    <div class="div-item tc bor-b cor-3">添加菜品</div>
+    <div class="div-item bor-b">
+        <span class="fl font-16 cor-3">地点</span>
+        <span class="fr">
+            <input type="text" class="inp font-16 cor-6 -i-address" placeholder="地儿" value="默认"/>
+        </span>
+    </div>
+    <div class="div-item bor-b">
+        <span class="fl font-16 cor-3">菜品</span>
+        <span class="fr">
+            <input type="text" class="inp font-16 cor-6 -i-eat" placeholder="菜儿" value=""/>
+        </span>
+    </div>
+    <div class="div-item bor-b tc font-14 cor-6">
+        多地点、菜品，请用汉语逗号隔开
+    </div>
+    <input type="button" class="btn J-add-eat" value="确认添加"/>
+</div>
+<!-- 添加菜品 结束 -->
+
+<!-- 展示地点 开始 -->
+<div class="pop-show-address">
+
+</div>
+<!-- 展示地点 结束 -->
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
